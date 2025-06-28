@@ -42,8 +42,8 @@ export async function createInvoice(formData: FormData) {
     console.error(error);
   }
  
-  revalidatePath('/dashboard/invoices');
-  redirect('/dashboard/invoices');
+  revalidatePath('/dashboard/Invoices');
+  redirect('/dashboard/Invoices');
 }
 
 export async function updateInvoice(id: string, formData: FormData) {
@@ -66,13 +66,13 @@ export async function updateInvoice(id: string, formData: FormData) {
     console.error(error);
   }
  
-  revalidatePath('/dashboard/invoices');
-  redirect('/dashboard/invoices');
+  revalidatePath('/dashboard/Invoices');
+  redirect('/dashboard/Invoices');
 }
 
 // delete functionality of invoice
 
 export async function deleteInvoice(id: string) {
   await sql`DELETE FROM invoices WHERE id = ${id}`;
-  revalidatePath('/dashboard/invoices');
+  revalidatePath('/dashboard/Invoices');
 }
