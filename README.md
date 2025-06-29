@@ -28,7 +28,7 @@ Copy
 Edit
 pnpm run build
 
-🧩 Tech Stack
+## 🧩 Tech Stack
 Next.js (App Router)
 
 React
