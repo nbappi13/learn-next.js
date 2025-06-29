@@ -2,6 +2,19 @@
 
 This project is based on the **Next.js App Router Fundamentals** course by [Vercel](https://nextjs.org/learn).
 
+## 🧩 Tech Stack
+Next.js (App Router)
+
+React
+
+Tailwind CSS
+
+PostgreSQL
+
+TypeScript
+
+NextAuth
+
 ## 🚀 Getting Started
 
 ### 1. Install dependencies
@@ -28,18 +41,7 @@ Copy
 Edit
 pnpm run build
 
-## 🧩 Tech Stack
-Next.js (App Router)
 
-React
-
-Tailwind CSS
-
-PostgreSQL
-
-TypeScript
-
-NextAuth
 
 
 ---
