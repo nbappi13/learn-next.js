@@ -1,6 +1,47 @@
-## Next.js App Router Course - Starter
+# Next.js App Router Fundamentals
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+This project is based on the **Next.js App Router Fundamentals** course by [Vercel](https://nextjs.org/learn).
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
-"# learn-next.js" 
+## 🚀 Getting Started
+
+### 1. Install dependencies
+
+```bash
+pnpm install
+
+2. Run the development server
+bash
+Copy
+Edit
+pnpm dev
+Visit http://localhost:3000 in your browser.
+
+3. Lint the project
+bash
+Copy
+Edit
+pnpm lint
+
+4. Build the project for production
+bash
+Copy
+Edit
+pnpm run build
+
+🧩 Tech Stack
+Next.js (App Router)
+
+React
+
+Tailwind CSS
+
+PostgreSQL
+
+TypeScript
+
+NextAuth
+
+
+---
+
+Let me know if you want a version with environment setup (e.g. `.env`, database info, Vercel deployment instructions) later! 
